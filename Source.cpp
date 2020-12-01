@@ -12,7 +12,7 @@ void ZooAnimal::Create(char const *n, int cageN, int weightD, int w)
     cageNumber = cageN;
     weightDate = weightD;
     weight = w;
-    
+
 }
 void ZooAnimal::Destroy()
 {
@@ -56,9 +56,9 @@ int main()
     ZooAnimal bozo;
 
     bozo.Create("Bozo", 408, 1027, 400);
-   
 
-    cout << "This animal's name is " << bozo.reptName() << endl; // the 
+
+    cout << "This animal's name is " << bozo.reptName() << endl; // using a member function to get the private member data
 
     /* //print something else to verify function
      cout << "This animal's weight date " << bozo.reptWeightDate() << endl;*/
